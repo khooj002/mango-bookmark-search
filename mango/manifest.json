@@ -5,6 +5,18 @@
   "description": "This extension shows a Google Image search result for the current page",
   "version": "1.0",
 
+
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "windows": "Ctrl+Shift+M",
+        "mac": "MacCtrl+Shift+M",
+        "chromeos": "Ctrl+Shift+U",
+        "linux": "Ctrl+Shift+J"
+      }
+    }
+  },
+
   "browser_action": {
     "default_icon": "icon.png",
     "default_popup": "popup.html"
