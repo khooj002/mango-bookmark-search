@@ -5,7 +5,7 @@
   "description": "This extension shows a Google Image search result for the current page",
   "version": "1.0",
 
-
+// setting up shortcute command to launch extensions
   "commands": {
     "_execute_browser_action": {
       "suggested_key": {
@@ -21,6 +21,7 @@
     "default_icon": "icon.png",
     "default_popup": "popup.html"
   },
+  // giving extensions permissions 
   "permissions": [
     "tabs",
     "bookmarks",
